@@ -1,5 +1,6 @@
 body {
   color: #16113A;
+  overflow-x: hidden;
 }
 
 .App {
@@ -8,4 +9,8 @@ body {
 
 .selector-for-some-widget {
   box-sizing: content-box;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
 }

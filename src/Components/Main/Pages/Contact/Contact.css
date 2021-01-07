@@ -1,0 +1,24 @@
+#contact {
+    background: #CBE8F4;
+    height: auto;
+    padding: 50px;
+}
+
+.contact-wrapper {
+    padding: 50px 5px;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 18px;
+}
+
+.contact-wrapper>h1 {
+    font-size: 4vw;
+}
+
+
+
+form {
+    text-align: left;
+}

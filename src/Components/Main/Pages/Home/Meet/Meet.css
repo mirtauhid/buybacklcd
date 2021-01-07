@@ -1,0 +1,27 @@
+#meet {
+    background: #CBE8F4;
+    padding: 50px 0px;
+    height: auto;
+}
+
+.meet-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.form-control {
+    background: #FFFF !important;
+}
+
+.info {
+    padding: 0vw 3.5vw 2vw 2vw;
+    padding-right: 3vw;
+
+}
+
+.btn-primary {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+}

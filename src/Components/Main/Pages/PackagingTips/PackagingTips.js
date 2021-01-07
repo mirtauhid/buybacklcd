@@ -3,9 +3,14 @@ import './PackagingTips.css';
 
 const PackagingTips = () => {
     return (
-        <div>
-            
-        </div>
+        <main id="packaging">
+            <header>
+                
+            </header>
+            <div className="packaging-wrapper">
+                
+            </div>
+        </main>
     );
 };
 

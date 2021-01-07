@@ -1,0 +1,12 @@
+#requirements {
+    padding: 50px;
+}
+
+.req-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #CBE8F4;
+    height: 700px;
+    padding: 4vw;
+}

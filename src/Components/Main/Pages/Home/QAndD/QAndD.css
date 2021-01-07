@@ -1,0 +1,45 @@
+#quality-section {
+    height: auto;
+    padding: 50px 25px;
+    padding-bottom: 70px
+}
+
+.qd-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.ab-part {
+    background: #16113A;
+    height: 400px;
+    width: 100%;
+    padding: 7vw;
+}
+
+.c-part {
+    background: #00ADEF;
+    height: 400px;
+    width: 100%;
+    padding: 7vw;
+}
+
+.heading-part {
+    max-width: 1140px;
+    text-align: center;
+    color: #00ADEF;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.heading-part>h1 {
+    font-size: 3vw;
+    font-weight: 400;
+    text-align: left;
+}
+
+@media (max-width: 991px) {
+    .heading-part>h1 {
+        font-size: 2rem;
+    }
+}

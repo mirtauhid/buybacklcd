@@ -3,9 +3,13 @@ import './Requirements.css';
 
 const Requirements = () => {
     return (
-        <div>
-            
-        </div>
+        <main id="requirements">
+            <div className="req-container">
+                <div className="req-container">
+                    
+                </div>
+            </div>
+        </main>
     );
 };
 
