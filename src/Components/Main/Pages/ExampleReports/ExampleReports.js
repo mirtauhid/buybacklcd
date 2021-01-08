@@ -1,6 +1,5 @@
 import React from 'react';
-import ReportPdf from '../../../../Images/BB_report.pdf';
-import report from '../../../../Images/BB_report.png';
+import { default as report, default as ReportPdf } from '../../../../Images/blank report.jpg';
 import './ExampleReports.css';
 
 const ExampleReports = () => {
@@ -14,7 +13,7 @@ const ExampleReports = () => {
                         <input className="btn btn-primary" type="submit" value="Download" />
                     </form>
                     <div className="photo-frame">
-                        <img style={{width: '100%'}} src={report} alt="" />
+                        <img style={{width: '60vw', height: '50vw'}} src={report} alt="" />
                     </div>
                 </div>
             </div>

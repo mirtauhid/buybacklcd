@@ -5,17 +5,17 @@ const Contact = () => {
     return (
         <main id="contact">
             <div className="contact-wrapper row">
-                <h1>Contact Us</h1>
+                <h1>CONTACT US</h1>
                 <div style={{ padding: '2.5vw', marginBottom: '100px', textAlign: 'left'}} className="col-md-6">
-                    <div style={{ background: '#CBE8F4',padding: '1vw 1.5vw',borderRadius: '10px' }}>
-                        <h3>Tailor-made offer?</h3>
-                        <br /><br />
-                        <p>
-                            Do you have a question about our Buyback LCD Service?
-                    Feel free to contact us and we will contact you today! <br /><br />
+                    <div style={{ background: '#75B2AD',padding: '1vw 2vw',borderRadius: '10px', fontWeight: 'bold'}}>
+                        <h3>Need Custom Offer?</h3>
+                        <br />
+                        <p>If you have any question about our service then feel free to contact us. We appreciate your feedback.
+                            <br /><br />
 
-                    You can also request a quote using this form. We do apply a minimum number of 500 LCDs for this.
-                    We will contact you without obligation within 24 hours to discuss your specific wishes. <br /><br />
+                    You can also send us a meet request if you have minimum of 500 cell phone LCDs and you agree with our terms and conditions.
+                    <br/>
+                    We will contact you within 24 hour (Working Day) <br /><br />
 
                     Please note: we do not offer you   cash for your LCDs, we will only pay you by bank transfer after receipt of your invoice.
                 </p>
@@ -40,7 +40,7 @@ const Contact = () => {
                                 aria-describedby="emailHelp" />
                         </div>
                         <div class="mb-3">
-                            <textarea style={{ minHeight: '174px' }} class="form-control" placeholder="Message" id="floatingTextarea">
+                            <textarea style={{ minHeight: '150px' }} class="form-control" placeholder="Message" id="floatingTextarea">
                             </textarea>
                         </div>
                         <button type="submit" className="btn btn-primary">Submit</button>
@@ -49,18 +49,15 @@ const Contact = () => {
                 <div className="address-box">
                     <p>
                         <strong>
-                            Contact details:
+                            Contact Details:
                         </strong>
                         <br />
                         <small>
-                            BuybackLCD.com is a service of Distriwise BV, Arnhem, The Netherlands
-                            E: info@buybackLCD.com
-                            T: +31 (0) 88 - 2340 381
+                            Address
                         </small>
                         <br />
                         <small>
-                            VAT (NL) 855675548 B01 Chamber of Commerce
-                            / CoC: Arnhem 64459977
+                            Address
                         </small>
                     </p>
                 </div>

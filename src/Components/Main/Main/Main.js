@@ -11,6 +11,7 @@ import PackagingTips from '../Pages/PackagingTips/PackagingTips';
 import Prices from '../Pages/Prices/Prices';
 import Requirements from '../Pages/Requirements/Requirements';
 import SignUpLCD from '../Pages/SignUpLCD/SignUpLCD';
+import Policy from '../Policy/Policy';
 import './Main.css';
 
 const Main = () => {
@@ -33,11 +34,14 @@ const Main = () => {
                     <Route path="/requirements" >
                         <Requirements></Requirements>
                     </Route>
-                    <Route path="/sign-up-lcd" >
+                    <Route path="/sell-lcd" >
                         <SignUpLCD></SignUpLCD>
                     </Route>
                     <Route path="/contact" >
                         <Contact></Contact>
+                    </Route>
+                    <Route path="/policy">
+                        <Policy></Policy>
                     </Route>
                 </Switch>
             </Router>

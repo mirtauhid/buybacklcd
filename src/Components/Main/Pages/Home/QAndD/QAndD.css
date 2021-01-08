@@ -7,35 +7,38 @@
 .qd-wrapper {
     max-width: 1140px;
     margin: 0 auto;
-    color: #fff;
+    color: #F5F5F5;
 }
 
 .ab-part {
-    background: #16113A;
+    background: #C7C7C7;
     height: 400px;
     width: 100%;
     padding: 7vw;
+    color: #222A2F;
 }
 
 .c-part {
-    background: #00ADEF;
+    background: #DFE8E7;
     height: 400px;
     width: 100%;
     padding: 7vw;
+    color: #222A2F;
 }
 
 .heading-part {
     max-width: 1140px;
     text-align: center;
-    color: #00ADEF;
+    color: #333333;
     padding: 0;
     padding-bottom: 20px;
 }
 
 .heading-part>h1 {
     font-size: 3vw;
-    font-weight: 400;
+    font-weight: 600;
     text-align: left;
+    letter-spacing: .3vw;
 }
 
 @media (max-width: 991px) {

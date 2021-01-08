@@ -12,12 +12,12 @@ const FAQ = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                I am a private person. Can I send my screen?
+                                Can an individual person send broken LCDs?
                             </button>
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                No, only companies can send us broken LCDs.
+                                No, only companies can send broken LCDs.
                         </div>
                         </div>
                     </div>
@@ -30,7 +30,6 @@ const FAQ = () => {
                         </h2>
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                For the Netherlands:
                                 You can ship for free from 15 LCD screens.
                                 <br />
                                 Abroad:
@@ -42,7 +41,7 @@ const FAQ = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingThree">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How long does it take to be paid out?
+                                How long does it take for processing the payment?
                             </button>
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -75,8 +74,7 @@ const FAQ = () => {
                         </h2>
                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                Not at Buybacklcd.com.
-                                A broken LCD screen can be repaired at a repair shop. Buyback.com only purchases broken LCD screens.
+                                No, We only purchase broken or damaged LCDs.We don't repair LCDs.
                         </div>
                         </div>
                     </div>
@@ -98,7 +96,7 @@ const FAQ = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingSeven">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                What does a control report look like?
+                                What does a check report look like?
                             </button>
                         </h2>
                         <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">

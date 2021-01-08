@@ -1,12 +1,17 @@
+#faq-section {
+    background: #75B2AD;
+}
+
 .faq-wrapper {
     max-width: 1140px;
     margin: 0 auto;
     padding: 40px 60px 60px 60px;
+
 }
 
 .accordion-button {
     border: none !important;
-    border: 1px solid rgb(226, 226, 226) !important;
+    border: 1px solid #27363B !important;
     border-radius: 4px;
 }
 

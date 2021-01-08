@@ -1,7 +1,8 @@
 #meet {
-    background: #CBE8F4;
+    background: #425E5E;
     padding: 50px 0px;
     height: auto;
+    color: #F5F5F5;
 }
 
 .meet-wrapper {
@@ -11,7 +12,7 @@
 }
 
 .form-control {
-    background: #FFFF !important;
+    background: #F5F5F5F !important;
 }
 
 .info {

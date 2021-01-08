@@ -1,7 +1,6 @@
 #contact {
-    background: #CBE8F4;
+    background: #425E5E;
     height: auto;
-    padding: 50px;
 }
 
 .contact-wrapper {
@@ -9,16 +8,23 @@
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
-    background: #fff;
-    border-radius: 18px;
 }
 
 .contact-wrapper>h1 {
-    font-size: 4vw;
+    font-size: 5vw;
+    letter-spacing: 1vw !important;
+    color: #F5F5F5;
 }
 
 
 
 form {
     text-align: left;
+}
+
+.address-box {
+    max-width: 460px;
+    margin: 0 auto;
+    color: #F5F5F5;
+    font-size: 1.2vw;
 }
