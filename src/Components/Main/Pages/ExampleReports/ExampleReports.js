@@ -7,13 +7,15 @@ const ExampleReports = () => {
         <main id="ex-report" >
             <div className="ex-report-wrapper">
                 <div className="ex-report-wrapper">
-                    <h1 style={{letterSpacing: '2px'}}>EXAMPLE REPORT</h1>
+                    <div className="header-banner-er">
+                        <h1 >EXAMPLE REPORT</h1>
+                    </div>
                     <br />
-                    <form style={{textAlign: 'center'}} action={ReportPdf}>
+                    <form style={{ textAlign: 'center', marginTop:'30px' }} action={ReportPdf}>
                         <input className="btn btn-primary" type="submit" value="Download" />
                     </form>
                     <div className="photo-frame">
-                        <img style={{width: '60vw', height: '50vw'}} src={report} alt="" />
+                        <img style={{ width: '60vw', height: '50vw' }} src={report} alt="" />
                     </div>
                 </div>
             </div>

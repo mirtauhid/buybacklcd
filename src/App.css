@@ -1,7 +1,7 @@
 body {
   color: #27363b;
   overflow-x: hidden;
-  background: #F5F5F5;
+  background: #FFFFFF;
 }
 
 .App {
@@ -14,4 +14,11 @@ body {
 
 * {
   font-family: 'Open Sans', sans-serif;
+}
+
+@media(max-width: 991px) {
+  h1 {
+    font-size: 7vw !important;
+    margin-top: 20px;
+  }
 }

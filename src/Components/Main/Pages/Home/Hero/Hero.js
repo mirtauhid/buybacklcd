@@ -6,13 +6,13 @@ const Hero = () => {
     return (
         <section id="hero" >
             <div className="row hero-container">
-                <div className="col-md-6 for-large">
+                <div className="col-md-7 for-large">
                     <div className="hero-text">
-                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw' }}>Get some cash by selling your broken cell phone LCDs</h1>
+                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw', color: '#222326' }}>Get some cash by selling your broken cell phone LCDs</h1>
                         <p><strong>We are offering the best solution for your collection of broken cell phone LCDs at a very good price. Just sign up and send info and get profited from recycling assets.</strong></p>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-5">
                     <img id="heroImage" style={{ maxWidth: '100%' }} src={heroImage} alt="" />
                 </div>
                 <div className="col-md-6 for-mobile">

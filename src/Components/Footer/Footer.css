@@ -1,6 +1,12 @@
 #footer {
-    background-color: #27363B;
+    background-color: #F5F5F6;
     max-width: 100% !important;
+    color: #000000 !important;
+    font-weight: 500;
+    border-top: 3px solid #FF9211;
+    left: 0;
+    bottom: 0 !important;
+    margin-top: 50px;
 }
 
 .footer-container {
@@ -13,7 +19,7 @@
     padding: 20px;
     font-size: 15px;
     line-height: 24px;
-    color: #75B2AD;
+    color: #000000;
 }
 
 .site-footer hr {
@@ -26,7 +32,7 @@
 }
 
 .site-footer h6 {
-    color: #75B2AD;
+    color: #000000;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -35,11 +41,11 @@
 }
 
 .site-footer a {
-    color: #F5F5F5 !important;
+    color: #F37B20 !important;
 }
 
 .site-footer a:hover {
-    color: #007BFF !important;
+    color: #FFFFFF !important;
     text-decoration: none;
 }
 
@@ -53,13 +59,13 @@
 }
 
 .footer-links a {
-    color: #F5F5F5 !important;
+    color: #F37B20 !important;
 }
 
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-    color: #007BFF;
+    color: #007BFF !important;
     text-decoration: none;
 }
 
@@ -140,7 +146,7 @@
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
-    color: #F5F5F5;
+    color: blue !important;
     background-color: #29aafe
 }
 
@@ -160,7 +166,7 @@
 }
 
 .social-icons a.linkedin:hover {
-    background-color: #007bb6
+    background-color: blue
 }
 
 .social-icons a.dribbble:hover {
@@ -173,4 +179,12 @@
         margin-right: 0;
         font-weight: 600
     }
+}
+
+.copyright-text>a {
+    color: #F37B20 !important;
+}
+
+.copyright-text>a:hover {
+    color: blue !important;
 }

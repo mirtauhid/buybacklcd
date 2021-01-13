@@ -1,0 +1,6 @@
+#home-wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    box-shadow: 0 14px 28px rgba(224, 224, 224, 0.25), 0 10px 10px rgba(224, 224, 224, 0.25);
+}

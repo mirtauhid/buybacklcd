@@ -1,11 +1,21 @@
 import React from 'react';
+import newTwo from '../../../../Images/Buyback_Verpakkingstip2.png';
+import newThree from '../../../../Images/Buyback_Verpakkingstip3.png';
+import newFour from '../../../../Images/Buyback_Verpakkingstip4.png';
+import newFive from '../../../../Images/Buyback_Verpakkingstip5.png';
+import two from '../../../../Images/number (1).png';
+import three from '../../../../Images/number (2).png';
+import four from '../../../../Images/number (3).png';
+import one from '../../../../Images/number.png';
 import './PackagingTips.css';
 
 const PackagingTips = () => {
     return (
         <main id="packaging">
             <div className="packaging-wrapper">
-                <h1>LCD Packaging Instruction</h1>
+                <div className="packaging-heading">
+                    <h1>LCD Packaging Instruction</h1>
+                </div>
                 <br />
                 <br />
                 <div className="tabs-wrapper">
@@ -20,49 +30,53 @@ const PackagingTips = () => {
                                 <br />
                                 <ol>
                                     <li>
-                                        <p>
-                                            Insert all LCDs into bubble wrap bags. Ensure the flex cables are not bent.
-                            </p>
+                                        <div className="article d-flex flex-row justify-space-between">
+                                            <div>
+                                                <img style={{ width: '100px', height: '100px' }} src={one} alt="" />
+                                            </div>
+                                            <div>
+                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                                    It is best to use the air cushion bags in which your LCD screens are supplied. The steps for shipping are almost the same as the non-bubble bag method.
+
+                                            </p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <p>
-                                            Wrap stacks of five LCDs with a rubber band.
-                            </p>
+                                        <div className="article d-flex flex-row justify-space-between">
+                                            <div>
+                                                <img style={{ width: '100px', height: '100px' }} src={two} alt="" />
+                                            </div>
+                                            <div>
+                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                                    Place the broken LCD screens in bubble bags with the flex cables facing the open side of the bag.
+                                            </p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <p>
-                                            Place a layer of filler inside the box, making sure to cover the sides.
-                            </p>
+                                        <div className="article d-flex flex-row justify-space-between">
+                                            <div>
+                                                <img style={{ width: '100px', height: '100px' }} src={three} alt="" />
+                                            </div>
+                                            <div>
+                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                                    Make sets of 10 screens and hold the sets together with an elastic band. Make sure the elastic is not so tight that it can damage the screens.
+                                            </p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <p>
-                                            Lay your stacks of LCDs with the flex cables facing inward (towards the middle of the box).
-                            </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Stuff filler into any gaps
-                            </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Add a few layers of filler on top to fill the box.
-                            </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Lay your packaging slip inside.
-                            </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Before sealing the box, close the lid and give it a hard shake. If you notice anything moving around, add more filler.
-                            </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Before sealing the box, close the lid and give it a hard shake. If you notice anything moving around, add more filler.
-                            </p>
+                                        <div className="article d-flex flex-row justify-space-between">
+                                            <div>
+                                                <img style={{ width: '100px', height: '100px' }} src={four} alt="" />
+                                            </div>
+                                            <div>
+                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                                    Place the sets in the shipping box on a layer of paper plugs and also fill the sides and top of the box with paper plugs to prevent the contents from moving.
+                                            </p>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ol>
                             </div>
@@ -72,49 +86,47 @@ const PackagingTips = () => {
                                 <h3>Packing without Bubble Bag</h3>
                                 <br />
                                 <ol>
-                                    <li><p>
-                                        Lay a sheet of bubble wrap down and place two LCDs face down two inches from the edge. Make sure the flex cables are not bent and facing inward.
-                        </p></li>
-                                    <li><p>
-                                        Fold the extra two inches of bubble wrap over the screens.
-                        </p></li>
-                                    <li><p>
-                                        Fold once and add LCDs face down on top.
-                        </p></li>
-                                    <li><p>
-                                        Continue until you have a total of 10 LCDs (5 LCDs on each side). It''s not recommended to wrap more than 10 LCDs due to a higher possibility of being damaged while in transit.
-                        </p></li>
-                                    <li><p>
-                                        Wrap at least two layers of additional bubble wrap around the collection of LCDs. Secure the collection with a rubber band on each side.
-                        </p></li>
-                                    <li><p>
-                                        Place a layer of filler inside the box, making sure to cover the sides. Examples: paper, packing peanuts, newspaper, bubble wrap, etc.
-                        </p></li>
-                                    <li><p>
-                                        Lay your collection of LCDs towards the middle of the box (away from the sides).
-                        </p></li>
-                                    <li><p>
-                                        Stuff filler into any gaps. Examples: paper, packing peanuts, newspaper, bubble wrap, etc.
-                        </p></li>
-                                    <li><p>
-                                        Add a few layers of filler on top to fill the box. Examples: paper, packing peanuts, newspaper, bubble wrap, etc.
-                        </p></li>
-                                    <li><p>
-                                        For tracking purposes, lay your packaging slip inside.
-                        </p></li>
-                                    <li><p>
-                                        Before sealing the box, close the lid and give it a hard shake. If you notice anything moving around, add more filler.
-                        </p></li>
-                                    <li><p>
-                                        Close the lid and secure with packing tape. It is good practice to tape the edges. Don't forget to put the shipping label on the box!
-                        </p></li>
+                                    <li>
+                                        <div className="article d-flex flex-row justify-space-between">
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img style={{ width: '100px', height: '100px' }} src={newTwo} alt="" />
+                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                            Place two sets of 2 pieces back to back (back-to-back)
+
+                                            </p>
+                                    </li>
+                                    <li>
+                                        <img style={{ width: '100px', height: '100px' }} src={newThree} alt="" />
+                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                            Make a stack of five pairs of LCD screens (so a total of 10 screens). Wrap each stack in bubble wrap.
+                                            Seal the bubble wrap with tape so that it does not open during shipping. Fill the box with packaging chips; these act as shock absorbers.
+                                            </p>
+                                    </li>
+                                    <li>
+                                        <img style={{ width: '100px', height: '100px' }} src={newFour} alt="" />
+                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                            Place the bubble wrap sets in the packaging chips, ensuring that the sets are surrounded by the packaging chips. If you want to send multiple layer sets, protect the layers eg with a padded envelope so that the sets cannot move.
+
+                                            </p>
+                                    </li>
+                                    <li>
+                                        <img style={{ width: '100px', height: '100px' }} src={newFive} alt="" />
+                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                            Apply packaging chips around the packed LCD screens and along the inner sides of the box. This prevents slipping and minimizes the risk of damage. Seal the box tightly with tape so that it does not open accidentally.
+
+
+                                            </p>
+                                    </li>
                                 </ol>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
+        </main >
     );
 };
 

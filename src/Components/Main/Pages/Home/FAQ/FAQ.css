@@ -1,13 +1,31 @@
-#faq-section {
-    background: #75B2AD;
+#faq-section {}
+
+.header-banner-faq {
+    background: url("../../../../../Images/ibanner.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 60px;
 }
 
 .faq-wrapper {
+    padding: 50px 0px !important;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 40px 60px 60px 60px;
-
+    text-align: center;
 }
+
+.faq-wrapper>.header-banner-faq>h1 {
+    font-size: 4vw;
+    letter-spacing: 1vw !important;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 
 .accordion-button {
     border: none !important;
@@ -16,7 +34,7 @@
 }
 
 .accordion-button::after {
-    background-image: url("../../../../../Images/plus.svg")
+    background-image: url("../../../../../Images/plus.svg");
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -42,4 +60,26 @@
     border-radius: 0;
     overflow-anchor: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.accordion-button>.btn {
+    background: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #FF9211;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-body {
+    color: #000000;
+    font-weight: 500;
+    text-align: left;
 }

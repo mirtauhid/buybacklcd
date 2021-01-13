@@ -1,21 +1,15 @@
 import React from 'react';
-import FAQ from '../FAQ/FAQ';
+import Acquainted from '../Acquainted/Acquainted';
 import Hero from '../Hero/Hero';
-import HowWork from '../HowWork/HowWork';
-import Meet from '../Meet/Meet';
 import Methods from '../Methods/Methods';
-import QAndD from '../QAndD/QAndD';
 import './Home.css';
 
 const Home = () => {
     return (
-        <main>
+        <main id="home-wrapper">
             <Hero></Hero>
             <Methods></Methods>
-            <HowWork></HowWork>
-            <QAndD></QAndD>
-            <Meet></Meet>
-            <FAQ></FAQ>
+            <Acquainted></Acquainted>
         </main>
     );
 };

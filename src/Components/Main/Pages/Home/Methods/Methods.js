@@ -1,42 +1,72 @@
 import React from 'react';
-import Pay from '../../../../../Images/invoice.png';
-import All from '../../../../../Images/like.png';
-import Display from '../../../../../Images/phone (2).png';
-import QC from '../../../../../Images/qc.png';
 import './Methods.css';
 
 const Methods = () => {
     return (
         <section id="methods-section">
             <div id="methods">
-                <h1><span>How</span> We Work</h1>
-                <br />
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="method">
-                            <img style={{ width: '80PX' }} src={QC} alt="" />
-                            <br /> <strong>Quality Control</strong> <br />
-                            <small className="texts">Broken cell phone displays can be classified to A and B category by considering their quality</small>
-                        </div>
-                        <div className="method">
-                            <img style={{ width: '80PX' }} src={Display} alt="" />
-                            <br /> <strong>Cell Phone LCDs</strong> <br />
-                            <small className="texts">Cell phone display's works as 'original', only the glass layer is broken or damaged. Quality A should not include: bad back-light, dead pixels, gray surface, #F5F5F5 lines and discoloration, screen burns, water damage or edge printing damage.</small>
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="method">
-                            <img style={{ width: '80PX' }} src={All} alt="" />
-                            <br /> <strong>Qualities We Accept</strong> <br />
-                            <small className="texts">We accept all qualities you wish to sell. We just put them into categories according to their condition</small>
-                        </div>
-                        <div className="method">
-                            <img style={{ width: '80PX' }} src={Pay} alt="" />
-                            <br /> <strong>Our Payment Process</strong> <br />
-                            <small className="texts">We only pay through bank transfer after receipt of your invoice including VAT, unfortunately we do not pay in cash.</small>
+                <div className="section mcb-section  no-margin-h no-margin-v  " style={{ paddingTop: 0, paddingBottom: 0, backgroundColor: '' }}>
+                    <div className="section_wrapper mcb-section-inner">
+                        <div className="wrap mcb-wrap one  valign-top clearfix" style={{ padding: '1% 2% 1% 2%' }}>
+                            <div className="mcb-wrap-inner">
+                                <div className="column mcb-column one-fourth column_icon_box ">
+                                    <div className="icon_box icon_position_top no_border">
+                                        <div className="icon_wrapper">
+                                            <div className="icon"><i className="fas fa-mobile-alt"></i></div>
+                                        </div>
+                                        <div className="desc_wrapper">
+                                            <div className="desc">
+                                                <span style={{ fontSize: 20 }}><b><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>OFFER YOUR LCDs</font></font></b></span><br /><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>
+                                                    Register your LCDs online via our website.</font></font>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="column mcb-column one-fourth column_icon_box ">
+                                    <div className="icon_box icon_position_top no_border">
+                                        <div className="icon_wrapper">
+                                            <div className="icon"><i className="fas fa-paper-plane"></i></div>
+                                        </div>
+                                        <div className="desc_wrapper">
+                                            <div className="desc">
+                                                <span style={{ fontSize: 20 }}><b><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>SEND THEM</font></font></b></span><br /><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>
+                                                    Send your LCDs free of charge within the Netherlands.</font></font>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="column mcb-column one-fourth column_icon_box ">
+                                    <div className="icon_box icon_position_top no_border">
+                                        <div className="icon_wrapper">
+                                            <div className="icon"><i className="fas fa-check-circle"></i></div>
+                                        </div>
+                                        <div className="desc_wrapper">
+                                            <div className="desc">
+                                                <span style={{ fontSize: 20 }}><b><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>WE ACCEPT THE LCDs You</font></font></b></span><br /><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>
+                                                    will receive our test report within 5 working days.</font></font>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="column mcb-column one-fourth column_icon_box ">
+                                    <div className="icon_box icon_position_top no_border">
+                                        <div className="icon_wrapper">
+                                            <div className="icon"><i style={{ paddingBottom: '30px' }} className="fas fa-file-invoice-dollar"></i></div>
+                                        </div>
+                                        <div className="desc_wrapper">
+                                            <div className="desc">
+                                                <span style={{ fontSize: 20 }}><b><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>RECEIVE YOUR MONEY</font></font></b></span><br /><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>
+                                                    After receipt of your invoice, an immediate payment
+                    follows.</font></font>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     );

@@ -1,0 +1,123 @@
+.form-group {
+    padding: 5px;
+}
+
+
+.form-row {
+    padding: 3px 5px;
+    font-size: 16px;
+
+}
+
+.form-control {
+    border: 1px solid #CCCCCC;
+    height: 30px;
+    width: 75px;
+    margin-top: 4px;
+    border-radius: 0px;
+}
+
+.nav-tabs {
+    border: none;
+    margin: 30px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-tabs>.nav-item {
+    background: #F3F3F3;
+    width: 32.8%;
+    border: none;
+    min-height: 70px;
+    padding: 20px !important;
+}
+
+.third-nav>table {
+    width: 50%;
+}
+
+
+.nav-tabs>.nav-item:focus,
+.nav-tabs>.nav-item:active,
+.nav-tabs>.nav-item:hover {
+    background-color: #FF9211 !important;
+    color: black !important;
+    ;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #FF9211 !important;
+}
+
+.form-row:nth-child(odd) {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.form-row:nth-child(even) {
+    background: #F3F3F3;
+    border: 1px solid #CCCCCC;
+
+}
+
+
+
+
+.sign-up-banner {
+    background: url("../../../../Images/ibanner.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 100px;
+    margin: 30px 0px;
+    margin-bottom: 70px;
+}
+
+.sign-up-wrapper {
+    padding: 20px 0px !important;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center !important;
+}
+
+.sign-up-wrapper>.sign-up-banner>h1 {
+    font-size: 4vw;
+    letter-spacing: 1vw !important;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.nav-tabs>a {
+    margin-left: 0px;
+}
+
+.nav-tabs {
+    justify-content: space-between;
+
+}
+
+.third-tab>form {
+    margin: 0 auto !important;
+    max-width: 600px;
+    justify-content: center;
+    padding: 2vw;
+}
+
+
+.third-tab>form>input {
+    display: block;
+    margin: 15px auto;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #e6e5e5;
+    padding: 5px 10px;
+    background: #F3F3F3;
+}
+
+.third-tab>form>.btn {
+    background: #FF9211;
+}

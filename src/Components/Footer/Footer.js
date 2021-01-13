@@ -29,7 +29,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6 col-sm-6 col-xs-12">
                                 <p className="copyright-text">Copyright © 2021 All Rights Reserved by
-          <a href="#"> test.com</a>.
+          <a href="/"> test.com</a>.
         </p>
                             </div>
                             <div style={{ textAlign: 'right' }} className="col-md-6 col-sm-6 col-xs-12">

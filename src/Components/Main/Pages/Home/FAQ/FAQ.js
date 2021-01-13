@@ -5,9 +5,12 @@ const FAQ = () => {
     return (
         <section id="faq-section">
             <div className="faq-wrapper">
-                <h1 className="text-center side-border">Frequently Asked Questions</h1>
-                <br/>
-                <br/>
+
+                <div className="header-banner-faq">
+                    <h1 className="text-center side-border">Frequently Asked Questions</h1>
+                </div>
+                <br />
+                <br />
                 <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingOne">

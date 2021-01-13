@@ -1,32 +1,54 @@
 #packaging {
-    background: #425E5E;
+    background: #FFFFFF;
     height: auto;
     padding: 30px 5px;
     text-transform: uppercase;
+    list-style: none !important;
 }
+
+
 
 .packaging-wrapper {
     max-width: 1140px;
     margin: 0 auto;
+    color: #130e0e;
     text-align: center;
-    margin-bottom: 30px;
+
 }
 
-.packaging-wrapper>h1 {
+.packaging-wrapper>.packaging-heading>h1 {
     font-size: 5vw;
     letter-spacing: 1vw !important;
-    color: #F5F5F5;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.packaging-heading {
+    background: url("../../../../Images/ibanner.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 55px;
 }
 
 
 
 
 .tabs-wrapper {
-    margin: 5% 10% 0 10%;
+    width: 100%;
 }
 
 .tabs-wrapper input[type=radio] {
     display: none;
+}
+
+.methodTwo>ol>li {
+    text-decoration: none !important;
 }
 
 .tabs-wrapper label {
@@ -36,7 +58,7 @@
     color: #333333;
     width: 100% !important;
     height: 3em;
-    background: #FFFFFF;
+    background: #CCD4D4;
     text-align: center;
     line-height: 3em;
     font-weight: bold;
@@ -58,7 +80,6 @@
     .tabs-wrapper label {
         width: 100%;
         display: block;
-        border-bottom: 2px solid #4d4c47;
     }
 }
 
@@ -67,11 +88,11 @@
 }
 
 .tabs-wrapper label:hover {
-    background: #667876;
+    background: #FF9211 !important;
 }
 
 .tabs-wrapper input[type=radio]:checked+label {
-    background: #75B2AD;
+    background: #FF9211;
     color: #333333;
 }
 
@@ -83,6 +104,27 @@
     transition: opacity 0.5s ease-in;
 }
 
+.methodTwo>ol>li>img {
+    display: inline-block !important;
+    width: 300px !important;
+    height: 300px !important;
+    margin-bottom: 10px;
+}
+
+.methodTwo>ol>li>p {
+    padding: 10px !important;
+    margin-bottom: 100px;
+}
+
+.methodOne>ol,
+.methodTwo>ol {
+    padding: 0;
+}
+
+.methodTwo {
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .tabs-wrapper {
         margin: 0;
@@ -91,20 +133,22 @@
 
 .tab-body-wrapper {
     background: #F5F5F5;
-    border-top: #75B2AD 5px solid;
+    border-top: #FF9211 5px solid;
     text-align: left;
 }
 
 .methodOne>h3,
 .methodTwo>h3 {
     font-weight: 700;
-    margin-left: 1.2vw;
+    text-align: center;
 }
 
 .methodOne>ol>li,
 .methodTwo>ol>li {
-    font-weight: 600;
+    font-weight: 500;
     margin: 3vw 0px;
+    text-decoration: none !important;
+    list-style: none;
 }
 
 @media screen and (max-width: 600px) {

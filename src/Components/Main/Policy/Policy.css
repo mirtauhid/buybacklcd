@@ -1,18 +1,51 @@
 #policy {
     height: auto;
-    background: #425E5E;
     padding: 30px 5px;
+    color: black !important;
+}
+
+#policy>p {
+    color: black !important;
+}
+
+.policy-banner {
+    background: url("../../../Images/ibanner.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 100px;
 }
 
 .policy-wrapper {
+    padding: 20px 0px !important;
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
 }
 
-.policy-wrapper>h1 {
-    font-size: 5vw;
+.policy-wrapper>.policy-banner>h1 {
+    font-size: 4vw;
     letter-spacing: 1vw !important;
-    color: #F5F5F5;
+    color: #FFFFFF;
+    font-weight: 600;
     text-transform: uppercase;
+}
+
+.fusion-text-2 p {
+    color: #000000;
+    font-weight: 500;
+    padding: ;
+}
+
+.fusion-text-2 h2 {
+    font-weight: 550;
+    color: #070707;
+}
+
+.fusion-text-2 {
+    max-width: 1140px;
+    padding: 5vw;
 }

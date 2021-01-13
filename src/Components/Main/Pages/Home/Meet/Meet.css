@@ -1,8 +1,8 @@
 #meet {
-    background: #425E5E;
-    padding: 50px 0px;
     height: auto;
-    color: #F5F5F5;
+    color: #333333;
+    font-weight: 600;
+    padding: 30px 5px;
 }
 
 .meet-wrapper {
@@ -11,18 +11,57 @@
     padding: 10px 0px;
 }
 
+.meet-heading>h1 {
+    font-size: 6vw;
+    letter-spacing: 1vw !important;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.meet-heading {
+    background: url("../../../../../Images/ibanner.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 90px;
+}
+
+.form {
+    padding-top: 5vw;
+}
+
+.form>h3 {
+    text-transform: uppercase !important;
+    font-weight: 700;
+}
+
 .form-control {
-    background: #F5F5F5F !important;
+    background: #FFFFFF !important;
+    width: 100% !important;
 }
 
 .info {
-    padding: 0vw 3.5vw 2vw 2vw;
+    padding: 5vw 3.5vw 2vw 2vw;
     padding-right: 3vw;
 
 }
 
-.btn-primary {
+form>.btn-primary {
     width: 120px;
     height: 50px;
     font-size: 20px;
+    background-color: #F37B20;
+    border: #F5F5F5;
+    color: F5F5F5;
+    font-weight: 700;
+}
+
+form>.btn-primary:hover {
+    background-color: #bb5507;
+    color: #FFFFFF;
 }

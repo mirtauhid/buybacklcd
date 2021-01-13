@@ -1,7 +1,7 @@
 #hero {
     height: auto;
-    background-color: #DFE8E7;
     padding: 0px 0px 74px 0px;
+    border-bottom: 4px solid #FF9211;
 }
 
 .hero-container {
@@ -11,8 +11,10 @@
 }
 
 .hero-text {
-    margin: 45px 0px;
+    margin: 4vw 0px 0px 0px;
 }
+
+
 
 .hero-text>p {
     font-size: 1.5rem;
@@ -38,7 +40,7 @@
 
     #heroImage {
         width: 80% !important;
-        padding-top: 8vw !important;
+        padding-top: 5vw !important;
         margin: 0 auto !important;
         margin-left: 10vw !important;
     }

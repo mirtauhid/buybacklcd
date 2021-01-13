@@ -1,6 +1,7 @@
 #prices {
-    background: #425E5E;
+    background: #FFFFFF;
     padding: 30px 5px;
+    color: black;
 }
 
 .price-wrapper {
@@ -10,91 +11,31 @@
 
 }
 
-.price-wrapper>h1 {
-    font-size: 5vw;
+.price-wrapper>.price-heading>h1 {
+    font-size: 6vw;
     letter-spacing: 1vw !important;
-    color: #F5F5F5;
+    color: #FFFFFF;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
 }
 
-
-.price-wrapper>table tr th {
-    text-align: left;
+.price-heading {
+    background: url("../../../../Images/ibanner.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 90px;
 }
 
 table {
-    width: 100%;
-    background: #27363B;
-}
+    color: #000000;
+    font-weight: 700;
+    margin: 25px auto;
+    width: 100% !important;
+    border-collapse: collapse !important;
 
-table tr th {
-    background-color: #F8F9FA;
-    color: #27363B;
-    text-align: left;
-}
-
-table tr td {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 200px;
-    white-space: nowrap;
-    padding: 20px 10px;
-}
-
-table tr:nth-child(odd) {
-    background-color: rgba(171, 206, 227, .3);
-}
-
-table tr:hover {
-    background-color: rgba(171, 206, 227, 1);
-    color: #333333;
-}
-
-table th,
-table td {
-    padding: 0.5rem;
-}
-
-@media screen and (max-width: 700px) {
-    table th {
-        display: none;
-    }
-
-    table tr {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-areas: "top-left top-right""bottom-left bottom-right";
-    }
-
-    table tr td:first-child {
-        font-size: 1em;
-    }
-
-    table tr td {
-        padding: 0.1rem;
-        max-width: 100%;
-        overflow: hidden;
-    }
-
-    table tr td:nth-child(3),
-    table tr td:nth-child(4) {
-        text-align: right;
-    }
-
-    table tr td.name {
-        grid-area: top-left;
-    }
-
-    table tr td.company {
-        grid-area: bottom-left;
-    }
-
-    table tr td.phone {
-        grid-area: top-right;
-    }
-
-    table tr td.email {
-        grid-area: bottom-right;
-    }
 }

@@ -10,8 +10,12 @@
     color: #F5F5F5;
 }
 
+.heading-part>h1 {
+    font-weight: 700;
+}
+
 .ab-part {
-    background: #C7C7C7;
+    background: #DFE8E7;
     height: 400px;
     width: 100%;
     padding: 7vw;

@@ -6,7 +6,9 @@ import {
 } from "react-router-dom";
 import Contact from '../Pages/Contact/Contact';
 import ExampleReports from '../Pages/ExampleReports/ExampleReports';
+import FAQ from '../Pages/Home/FAQ/FAQ';
 import Home from '../Pages/Home/Home/Home';
+import Meet from '../Pages/Home/Meet/Meet';
 import PackagingTips from '../Pages/PackagingTips/PackagingTips';
 import Prices from '../Pages/Prices/Prices';
 import Requirements from '../Pages/Requirements/Requirements';
@@ -31,6 +33,9 @@ const Main = () => {
                     <Route path="/prices" >
                         <Prices></Prices>
                     </Route>
+                    <Route path="/meet" >
+                        <Meet></Meet>
+                    </Route>
                     <Route path="/requirements" >
                         <Requirements></Requirements>
                     </Route>
@@ -39,6 +44,9 @@ const Main = () => {
                     </Route>
                     <Route path="/contact" >
                         <Contact></Contact>
+                    </Route>
+                    <Route path="/faq" >
+                        <FAQ></FAQ>
                     </Route>
                     <Route path="/policy">
                         <Policy></Policy>

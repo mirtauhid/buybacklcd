@@ -1,42 +1,44 @@
+.nav-body {
+    max-width: 1180px;
+}
+
 .navbar {
-    background-color: #DFE8E7;
-    text-align: center;
-    padding-right: 0px;
-
+    margin-top: 1vw;
+    background-color: transparent !important;
 }
 
-@media (max-width: 991px) {
-    .nav-link {
-        color: #222A2F !important;
-        padding: 5px 0px !important;
-        margin-left: 1.6vw;
-        font-weight: 700;
-        font-size: 6vw;
-        margin-top: 4vw;
-        margin-bottom: 3.4vw;
-    }
-
-    #nav-body {
-        padding-right: 10px !important;
-        ;
-    }
+.navbar-nav {
+    background-color: rgba(206, 208, 210, 0.3);
+    padding: 10px 30px 10px 0px;
 }
-
-#nav-body {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding-right: 0px;
-    ;
-}
-
 
 .nav-link {
-    color: #222A2F !important;
-    padding: 5px 0px !important;
-    margin-left: 1.6vw;
+    color: #222a2f !important;
+    padding: 5px 0 !important;
+    margin-left: 2vw;
     font-weight: 700;
 }
 
 .nav-link:hover {
-    color: #2196F3 !important;
+    color: #FF9211 !important;
+}
+
+.dropdown-menu {
+    background-color: #F0F1F1;
+}
+
+.dropdown-item {
+    color: #222a2f !important;
+    padding: 5px 10px !important;
+    font-weight: 700;
+}
+
+a.dropdown-item:hover {
+    color: #FF9211;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        padding-left: 7.05vw;
+    }
 }
