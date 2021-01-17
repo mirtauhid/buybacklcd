@@ -1,15 +1,37 @@
 #methods-section {
     height: auto;
-    padding-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 90px;
     border-bottom: 4px solid #FF9211;
 }
 
 #methods {
     width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
+    max-width: 1180px;
+    margin: 0 auto !important;
     text-align: center;
     padding-top: 20px;
+}
+
+.mcb-wrap-inner {
+    margin: 0 auto !important;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 50px;
+    margin: 50px;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow:
+        0 2.8px 2.2px rgba(146, 146, 146, 0.034),
+        0 6.7px 5.3px rgba(126, 126, 126, 0.048),
+        0 12.5px 10px rgba(121, 120, 120, 0.06),
+        0 22.3px 17.9px rgba(138, 137, 137, 0.072),
+        0 41.8px 33.4px rgba(136, 136, 136, 0.086),
+        0 100px 80px rgba(141, 141, 141, 0.12)
 }
 
 @media all {
@@ -72,7 +94,7 @@
 
     .section_wrapper {
         max-width: 1220px;
-        margin: 0 auto;
+        margin: 0 auto !important;
         position: relative;
     }
 
@@ -85,7 +107,6 @@
     }
 
     .mcb-wrap {
-        float: left;
         position: relative;
         z-index: 1;
         box-sizing: border-box;
@@ -95,24 +116,27 @@
 
     .column {
         float: left;
-        margin: 0 1% 40px;
+        margin: 0 auto;
+        width: 40%;
     }
 
     .one.mcb-wrap {
         width: 100%;
+
     }
 
     .one-fourth.column {
-        width: 23%;
+        width: 40%;
     }
 
     .no-margin-h .column {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .no-margin-h .one-fourth.column {
-        width: 25%;
+        width: 40%;
+        margin: 5%;
     }
 
     .clearfix:before,

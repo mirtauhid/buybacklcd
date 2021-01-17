@@ -23,18 +23,21 @@ const SignUpLCD = () => {
         <main id="sign-up">
             <div className="sign-up-wrapper">
                 <div className="sign-up-banner">
-                    <h1>SIGN UP LCDs</h1>
+                    <h1>LCD REGISTRIEREN</h1>
                     <br />
 
                 </div>
                 <div className="sign-up-body">
                     <br />
-                    <p style={{ color: '#616160' }}> <strong>Register your LCDs for intake here</strong> <br />
-                        <small>Indicate per brand (iPhone / Samsung) how many LCDs you wish to send. <br /> If possible, please state the number of LCDs per model.
-By sending the LCDs, you agree to our terms .</small></p>
+                    <p style={{ color: '#616160' }}> <strong>Registrieren Sie hier Ihre LCDs zur Aufnahme
+
+</strong> <br />
+                        <small>Geben Sie pro Marke (iPhone / Samsung) an, wie viele LCDs Sie einsenden möchten. <br/>
+
+Wenn möglich, geben Sie bitte die Anzahl der LCDs pro Modell an. <br/> Mit dem Einsenden der LCDs erklären Sie sich mit unseren Bedingungen einverstanden.</small></p>
                     <br />
                     <Tabs defaultActiveKey="first" id="uncontrolled-tab-example">
-                        <Tab eventKey="first" title="Step 1: iPhone">
+                        <Tab eventKey="first" title="Schritt  1: iPhone">
                             <div className="row">
 
                                 <div className="col-md-6">
@@ -183,7 +186,7 @@ By sending the LCDs, you agree to our terms .</small></p>
                                             </Form.Row>
                                             <Form.Row>
                                                 <Form.Label column lg={10}>
-                                                    Total amount                                    </Form.Label>
+                                                Gesamtbetrag                                    </Form.Label>
                                                 <Col>
                                                     <Form.Control type="text" />
                                                 </Col>
@@ -193,7 +196,7 @@ By sending the LCDs, you agree to our terms .</small></p>
                                 </div>
                             </div>
                         </Tab>
-                        <Tab eventKey="second" title="Step 2: Samsung & Other">
+                        <Tab eventKey="second" title="Schritt  2: Samsung & Andere">
                             <div className="row">
                                 <div className="col-md-6">
                                     <Form action={sendEmail}>
@@ -333,7 +336,7 @@ By sending the LCDs, you agree to our terms .</small></p>
                                             </Form.Row>
                                             <Form.Row>
                                                 <Form.Label column lg={10}>
-                                                    Total amount                                    </Form.Label>
+                                                Gesamtbetrag                                    </Form.Label>
                                                 <Col>
                                                     <Form.Control type="text" />
                                                 </Col>
@@ -494,7 +497,7 @@ By sending the LCDs, you agree to our terms .</small></p>
                                 </div>
                             </div>
                         </Tab>
-                        <Tab eventKey="third" title="Step 3: Personal information">
+                        <Tab eventKey="third" title="Schritt  3: Persönliche Informationen">
                             <div className="third-tab">
                                 <br />
                                 <br />

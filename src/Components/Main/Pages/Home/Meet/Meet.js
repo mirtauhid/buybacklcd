@@ -6,10 +6,13 @@ const Meet = () => {
 
     function sendEmail(e) {
         e.preventDefault();
-
+        console.log(e);
         emailjs.sendForm('service_w9aqhxm', 'template_m9gex68', e.target, 'user_J3Eo9lyqa5OVUGYdoUzHY')
             .then((result) => {
                 console.log(result.text);
+                if(result.text === 'OK') {
+                    alert('Sent');
+                }
             }, (error) => {
                 console.log(error.text);
             });

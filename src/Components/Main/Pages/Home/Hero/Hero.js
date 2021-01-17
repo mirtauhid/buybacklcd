@@ -8,8 +8,8 @@ const Hero = () => {
             <div className="row hero-container">
                 <div className="col-md-7 for-large">
                     <div className="hero-text">
-                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw', color: '#222326' }}>Get some cash by selling your broken cell phone LCDs</h1>
-                        <p><strong>We are offering the best solution for your collection of broken cell phone LCDs at a very good price. Just sign up and send info and get profited from recycling assets.</strong></p>
+                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw', color: '#222326' }}>Verkaufen Sie uns Ihr kaputtes iPhone oder Samsung LCDs!</h1>
+                        <p><strong>Distriwise bietet Ihnen eine professionelle Lösung für die Abholung von kaputten iPhone und Samsung LCDs zu sehr günstigen Gebühren. Wir stehen auch für transparente Kontrolle und schnelle Bezahlung</strong></p>
                     </div>
                 </div>
                 <div className="col-md-5">
@@ -17,8 +17,8 @@ const Hero = () => {
                 </div>
                 <div className="col-md-6 for-mobile">
                     <div className="hero-text">
-                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw' }}>Sell ​​us your broken iPhone or Samsung LCDs!</h1>
-                        <p><strong>Distriwise offers you a professional solution for the collection of broken iPhone and Samsung LCDs at very favorable fees. We also stand for transparent control and fast payment.</strong></p>
+                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw' }}>Verkaufen Sie uns Ihr kaputtes iPhone oder Samsung LCDs!</h1>
+                        <p><strong>Distriwise bietet Ihnen eine professionelle Lösung für die Abholung von kaputten iPhone und Samsung LCDs zu sehr günstigen Gebühren. Wir stehen auch für transparente Kontrolle und schnelle Bezahlung</strong></p>
                     </div>
                 </div>
 

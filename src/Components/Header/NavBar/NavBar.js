@@ -13,37 +13,37 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav ml-auto mr-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                                <a className="nav-link active" aria-current="page" href="/">HOME</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                                Requirements
+                                VORAUSSETZUNGEN
 
   </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="/example-reports">Sample Report</a></li>
+                                    <li><a className="dropdown-item" href="/example-reports">SAMPLE REPORT</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="/packaging-tips">Packaging Tips</a></li>
+                                    <li><a className="dropdown-item" href="/packaging-tips">PACKAGING TIPS</a></li>
                                     <hr className="dropdown-divider" />
-                                    <li><a className="dropdown-item" href="/requirements">Requirements</a></li>
+                                    <li><a className="dropdown-item" href="/requirements">VORAUSSETZUNGEN</a></li>
                                 </ul>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/meet">Meet</a>
+                                <a className="nav-link active" aria-current="page" href="/meet">MEET</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/prices">Prices</a>
+                                <a className="nav-link active" aria-current="page" href="/prices">PREIS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/sell-lcd">Sell Now</a>
+                                <a className="nav-link active" aria-current="page" href="/sell-lcd">REGISTRIEREN</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/faq">FAQ</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/contact">Contact</a>
+                                <a className="nav-link active" aria-current="page" href="/contact">KONTAKT</a>
                             </li>
                         </ul>
                     </div>

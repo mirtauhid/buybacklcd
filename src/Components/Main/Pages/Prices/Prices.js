@@ -6,7 +6,7 @@ const Prices = () => {
         <main id="prices">
             <div className="price-wrapper">
                 <div className="price-heading">
-                    <h1>Price</h1>
+                    <h1>PREIS</h1>
                 </div>
                 <div className="row justify-center">
                     <div className="col-md-4">
@@ -36,8 +36,8 @@ const Prices = () => {
                                     <tr><td>Galaxy S20 ultra</td><td>€50.00</td><td>€25.00</td></tr>
                                     <tr><td>Galaxy A30 / A40 / A50 / 70</td><td>€11.00</td><td>€3.00</td></tr>
                                     <tr><td>Galaxy A10 / A20e / A41 / A51 / A71 / A80 / A90</td><td>€12.00</td><td>€3.00</td></tr>
-                                    <tr><td>Galaxy A Others</td><td>€7.00</td><td>-</td></tr>
-                                    <tr><td>Galaxy J Series</td><td>€3.00</td><td>-</td></tr>
+                                    <tr><td>Galaxy A Andere </td><td>€7.00</td><td>-</td></tr>
+                                    <tr><td>Galaxy J Serie </td><td>€3.00</td><td>-</td></tr>
                                     <tr><td>Galaxy Note 1</td><td>€1.50</td><td>€ -</td></tr>
                                     <tr><td>Galaxy Note 2</td><td>€1.00</td><td>€ -</td></tr>
                                     <tr><td>Galaxy Note 3</td><td>€3.00</td><td>€1.00</td></tr>
@@ -83,10 +83,10 @@ const Prices = () => {
                         <>
                             <style type="text/css" dangerouslySetInnerHTML={{ __html: "\n\ttable.tableizer-table {\n\t\tfont-size: 12px;\n\t\tborder: 1px solid #CCC; \n\t\tfont-family: Arial, Helvetica, sans-serif;\n\t} \n\t.tableizer-table td {\n\t\tpadding: 4px;\n\t\tmargin: 3px;\n\t\tborder: 1px solid #CCC;\n\t}\n\t.tableizer-table th {\n\t\tbackground-color: #FF9211; \n\t\tcolor: #FFF;\n\t\tfont-weight: bold;\n\t}\n" }} />
                             <table className="tableizer-table">
-                                <thead><tr className="tableizer-firstrow"><th>Models</th><th>OEM-AB</th><th>OEM-C</th></tr></thead><tbody>
+                                <thead><tr className="tableizer-firstrow"><th>Modelle </th><th>OEM-AB</th><th>OEM-C</th></tr></thead><tbody>
                                     <tr><td>Huawei Pro</td><td>€25.00</td><td>€11.00</td></tr>
-                                    <tr><td>Huawei Mix + frame</td><td>€0.25</td><td>€0.25</td></tr>
-                                    <tr><td>Other brands + frame</td><td>€0.25</td><td>€0.25</td></tr>
+                                    <tr><td>Huawei Mix + Rahmen </td><td>€0.25</td><td>€0.25</td></tr>
+                                    <tr><td>Andere Marken + Rahmen </td><td>€0.25</td><td>€0.25</td></tr>
                                 </tbody></table>
                         </>
 

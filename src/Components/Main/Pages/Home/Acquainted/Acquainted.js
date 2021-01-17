@@ -3,60 +3,25 @@ import './Acquainted.css';
 
 const Acquainted = () => {
     return (
-        <section id="Acquainted">
-            <div className="section mcb-section  equal-height-wrap   bg-cover" id="kennis" style={{ paddingTop: 0, paddingBottom: 0, backgroundColor: '#fcfcfc', backgroundImage: 'url(/wp-content/uploads/sites/3/2019/02/s372965039443608555_p2_i1_w800.jpeg)', backgroundRepeat: 'no-repeat', backgroundPosition: 'left bottom', backgroundAttachment: '', backgroundSize: '', WebkitBackgroundSize: '' }}>
-                <div className="section_wrapper mcb-section-inner">
-                    <div className="wrap mcb-wrap one-fifth  valign-bottom clearfix" style={{ height: 521 }}>
-                        <div className="mcb-wrap-inner">
-                            <div className="column mcb-column one column_placeholder">
-                                <div className="placeholder">&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="wrap mcb-wrap three-fifth  valign-middle clearfix" style={{ padding: 35, backgroundColor: 'rgb(255, 255, 255)', height: 521 }}>
-                        <div className="mcb-wrap-inner">
-                            <div className="column mcb-column one column_fancy_heading ">
-                                <div className="fancy_heading fancy_heading_icon">
-                                    <h2 className="title">
-                                        <font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>Acquainted</font></font>
-                                    </h2>
-                                    <div className="inside">
-                                        <p style={{ color: '#000000' }}>
-                                            <font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>We are example.com and have many years of experience
-                    in the refurbishing industry. </font><font style={{ verticalAlign: 'inherit' }}>We distinguish ourselves in buying broken LCDs because we
-                                                have a simple but transparent process and grading
-                    system.</font></font>
-                                        </p>
-                                        <p>
-                                            <font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>How do we do this? </font><font style={{ verticalAlign: 'inherit' }}>We are happy to explain this to you in a personal
-                    conversation. </font><font style={{ verticalAlign: 'inherit' }}>Contact us via the form below or call our specialist to
-                    make an appointment immediately.</font></font>
-                                        </p>
-                                        <p style={{ color: '#000000' }} className="callp">
-                                            <font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>Questions?
-                  </font></font><br /><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>Call us on
-                  </font></font><a href="tel:0850605032" className="calllink"><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>085-0000000</font></font></a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="column mcb-column one column_button">
-                                <div className="button_align align_center">
-                                    <a className="button  button_size_2 button_js" href="/contact/" style={{ backgroundColor: '#ff9211!important', color: '#ffffff' }}><span className="button_label"><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>Acquainted</font></font></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="wrap mcb-wrap one-fifth  valign-bottom clearfix" style={{ height: 521 }}>
-                        <div className="mcb-wrap-inner">
-                            <div className="column mcb-column one column_placeholder">
-                                <div className="placeholder">&nbsp;</div>
-                            </div>
-                        </div>
+        <div className="acquainted-section">
+            <div className="row">
+                <div className="col-md-6">
+                    <h1 style={{ color: '#766D76', fontSize: '3vw', fontWeight: '500' }} >Gewusst wie</h1>
+                    <br />
+                    <p style={{ fontSize: '1.2rem' }} >Wir sind example.com und haben viele Jahre Erfahrung in der Refurbishing-Branche. Wir zeichnen uns beim Ankauf von kaputten LCDs dadurch aus, dass wir einen einfachen, aber transparenten Prozess und ein Bewertungssystem haben.</p>
+                    <br />
+                    <p style={{ fontSize: '1.2rem' }} >Wie wir das machen? Das erklären wir Ihnen gerne in einem persönlichen Gespräch. Kontaktieren Sie uns über das untenstehende Formular oder rufen Sie unseren Spezialisten an, um sofort einen Termin zu vereinbaren.</p>
+                </div>
+                <div className="col-md-6">
+                    <div className="text-wrapper" style={{ margin: '0 auto', background: '#F0F1F1', padding: '50px 50px 180px 50px', borderRadius: '8px' }}>
+                        <h3 style={{ color: 'black' }}>Sie haben Fragen?</h3>
+                        <h3 style={{ color: 'black' }}>Rufen Sie uns an unter  <br/><span style={{ color: 'black', fontWeight: '600' }} >085-0000000</span></h3>
+                        <br />
+                        <button className="btn btn-primary" style={{ background: '#FF9211', border: '#FF9211', width: '150px', height: '50px' }} ><a style={{color: 'white', textDecoration: 'none'}} href="/contact">Kennenlernen</a></button>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 
