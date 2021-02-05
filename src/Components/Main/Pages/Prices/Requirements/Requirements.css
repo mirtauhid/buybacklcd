@@ -13,12 +13,13 @@
     height: auto;
     text-align: center;
     justify-content: center;
+    padding: 5px 10px;
 }
 
 
 
 .header-banner-req>h1 {
-    font-size: 5vw !important;
+    font-size: 3vw !important;
     letter-spacing: 1vw !important;
     color: #FFFFFF;
     font-weight: 600;
@@ -27,15 +28,27 @@
     margin: 0 auto !important;
 }
 
+@media (max-width: 991px) {
+    .header-banner-req>h1 {
+        font-size: 5vw !important;
+        margin-top: 30px !important;
+    }
+
+    .header-banner-req {
+        padding: 50px 0px !important;
+    }
+}
+
+
 .header-banner-req {
-    background: url("../../../../Images/ibanner.jpg");
+    background: url("../../../../../Images/ibanner.jpg");
     background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    padding: 70px;
+    padding: 50px 50px;
 }
 
 @media all {
@@ -59,7 +72,7 @@
     }
 
     h2 {
-        color: #FF9211;
+        color: #5FAC1C;
         margin: 0 0 20px;
     }
 
@@ -121,7 +134,7 @@ td {
     }
 
     .post-content h2 {
-        color: #FF9211;
+        color: #5FAC1C;
     }
 
     h2 {
@@ -311,7 +324,7 @@ td {
     }
 
     #wrapper .post-content h2 {
-        color: #FF9211;
+        color: #5FAC1C;
     }
 
 
@@ -326,4 +339,22 @@ div.article {
 
 .methodOne>ol>li {
     list-style: none;
+}
+
+
+#requirements p {
+    font-weight: 500;
+    width: 100%;
+    text-align: justify;
+}
+
+#requirements p:after {
+    /* this adds an extra invisible line, so any other line is justified */
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post-content p {
+    margin: 0 0 20px;
 }

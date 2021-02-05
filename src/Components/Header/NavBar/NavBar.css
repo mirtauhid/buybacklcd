@@ -20,7 +20,7 @@
 }
 
 .nav-link:hover {
-    color: #FF9211 !important;
+    color: #5FAC1C !important;
 }
 
 .dropdown-menu {
@@ -34,7 +34,7 @@
 }
 
 a.dropdown-item:hover {
-    color: #FF9211;
+    color: #5FAC1C;
 }
 
 @media (min-width: 992px) {

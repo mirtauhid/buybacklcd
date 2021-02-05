@@ -9,9 +9,10 @@ import ExampleReports from '../Pages/ExampleReports/ExampleReports';
 import FAQ from '../Pages/Home/FAQ/FAQ';
 import Home from '../Pages/Home/Home/Home';
 import Meet from '../Pages/Home/Meet/Meet';
+import LCDRegister from '../Pages/LCDRegister/LCDRegister';
 import PackagingTips from '../Pages/PackagingTips/PackagingTips';
 import Prices from '../Pages/Prices/Prices';
-import Requirements from '../Pages/Requirements/Requirements';
+import Requirements from '../Pages/Prices/Requirements/Requirements';
 import SignUpLCD from '../Pages/SignUpLCD/SignUpLCD';
 import Policy from '../Policy/Policy';
 import './Main.css';
@@ -41,6 +42,9 @@ const Main = () => {
                     </Route>
                     <Route path="/sell-lcd" >
                         <SignUpLCD></SignUpLCD>
+                    </Route>
+                    <Route path="/lcd-reg">
+                        <LCDRegister></LCDRegister>
                     </Route>
                     <Route path="/contact" >
                         <Contact></Contact>

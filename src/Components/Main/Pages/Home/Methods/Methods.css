@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     padding-bottom: 90px;
-    border-bottom: 4px solid #FF9211;
+    border-bottom: 4px solid #5FAC1C;
 }
 
 #methods {
@@ -54,6 +54,11 @@
 
     b {
         font-weight: 700;
+    }
+
+    .icon img {
+        width: 100%;
+        margin-top: -25px
     }
 
     [class^="icon-"]:before {
@@ -234,13 +239,7 @@
         transition: background-color .3s ease-in-out;
     }
 
-    .icon_box .icon_wrapper {
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-        transform: scale(1);
-    }
+
 
     .icon_box:hover .icon_wrapper {
         -webkit-transform: scale(0.93);
@@ -323,13 +322,13 @@
 }
 
 .icon_box .icon_wrapper {
-    color: #ff9211;
+    color: #5FAC1C;
 }
 
 
 
 .icon_box:hover .icon_wrapper:before {
-    background-color: #ff9211;
+    background-color: transparent !important;
 }
 
 ::-webkit-input-placeholder {

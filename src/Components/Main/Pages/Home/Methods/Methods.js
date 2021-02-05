@@ -1,4 +1,8 @@
 import React from 'react';
+import img1 from './Assets/how1.png';
+import img2 from './Assets/how2.png';
+import img3 from './Assets/how3.png';
+import img4 from './Assets/how4.png';
 import './Methods.css';
 
 const Methods = () => {
@@ -12,7 +16,7 @@ const Methods = () => {
                                 <div className="column mcb-column one-fourth column_icon_box card ">
                                     <div className="icon_box icon_position_top no_border">
                                         <div className="icon_wrapper">
-                                            <div className="icon"><i className="fas fa-mobile-alt"></i></div>
+                                            <div className="icon icon-size"><img src={img1} alt=""/></div>
                                         </div>
                                         <div className="desc_wrapper">
                                             <div className="desc">
@@ -27,7 +31,7 @@ const Methods = () => {
                                 <div className="column mcb-column one-fourth column_icon_box card ">
                                     <div className="icon_box icon_position_top no_border">
                                         <div className="icon_wrapper">
-                                            <div className="icon"><i className="fas fa-paper-plane"></i></div>
+                                            <div className="icon icon-size"><img src={img2} alt=""/></div>
                                         </div>
                                         <div className="desc_wrapper">
                                             <div className="desc">
@@ -44,7 +48,7 @@ const Methods = () => {
                                 <div className="column mcb-column one-fourth column_icon_box card ">
                                     <div className="icon_box icon_position_top no_border">
                                         <div className="icon_wrapper">
-                                            <div className="icon"><i className="fas fa-check-circle"></i></div>
+                                            <div className="icon icon-size"><img src={img3} alt=""/></div>
                                         </div>
                                         <div className="desc_wrapper">
                                             <div className="desc">
@@ -58,7 +62,7 @@ const Methods = () => {
                                 <div className="column mcb-column one-fourth column_icon_box card ">
                                     <div className="icon_box icon_position_top no_border">
                                         <div className="icon_wrapper">
-                                            <div className="icon"><i style={{ paddingBottom: '30px' }} className="fas fa-file-invoice-dollar"></i></div>
+                                            <div className="icon icon-size"><img src={img4} alt=""/></div>
                                         </div>
                                         <div className="desc_wrapper">
                                             <div className="desc">

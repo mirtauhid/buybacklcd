@@ -1,8 +1,4 @@
 import React from 'react';
-import newTwo from '../../../../Images/Buyback_Verpakkingstip2.png';
-import newThree from '../../../../Images/Buyback_Verpakkingstip3.png';
-import newFour from '../../../../Images/Buyback_Verpakkingstip4.png';
-import newFive from '../../../../Images/Buyback_Verpakkingstip5.png';
 import two from '../../../../Images/number (1).png';
 import three from '../../../../Images/number (2).png';
 import four from '../../../../Images/number (3).png';
@@ -14,116 +10,123 @@ const PackagingTips = () => {
         <main id="packaging">
             <div className="packaging-wrapper">
                 <div className="packaging-heading">
-                    <h1>LCD Packaging Instruction</h1>
+                    <h1>Verpackungstipps</h1>
                 </div>
                 <br />
                 <br />
-                <div className="tabs-wrapper">
-                    <input type="radio" name="tab" id="tab1" className="tab-head1" defaultChecked="checked" />
-                    <label htmlFor="tab1">PACKING WITH BUBBLE BAG</label>
-                    <input type="radio" name="tab" id="tab2" className="tab-head2" />
-                    <label htmlFor="tab2">PACKING WITHOUT BUBBLE BAG</label>
-                    <div className="tab-body-wrapper">
-                        <div id="tab-body-1" className="tab-body">
-                            <div className="methodOne">
-                                <h3>Packing with Bubble Bag</h3>
-                                <br />
-                                <ol>
-                                    <li>
-                                        <div className="article d-flex flex-row justify-space-between">
-                                            <div>
-                                                <img style={{ width: '100px', height: '100px' }} src={one} alt="" />
-                                            </div>
-                                            <div>
-                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                                    It is best to use the air cushion bags in which your LCD screens are supplied. The steps for shipping are almost the same as the non-bubble bag method.
+                <div className="methodOne">
+                    <ol>
+                        <li>
+                            <div className="article d-flex flex-row justify-space-between">
+                                <div>
+                                    <img style={{ width: '100px', height: '100px' }} src={one} alt="" />
+                                </div>
+                                <div>
+                                    <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                        Versuchen Sie jedes einzelne LCD in eine Luftpolsterfolie zu verpacken
+
+
 
                                             </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="article d-flex flex-row justify-space-between">
-                                            <div>
-                                                <img style={{ width: '100px', height: '100px' }} src={two} alt="" />
-                                            </div>
-                                            <div>
-                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                                    Place the broken LCD screens in bubble bags with the flex cables facing the open side of the bag.
-                                            </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="article d-flex flex-row justify-space-between">
-                                            <div>
-                                                <img style={{ width: '100px', height: '100px' }} src={three} alt="" />
-                                            </div>
-                                            <div>
-                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                                    Make sets of 10 screens and hold the sets together with an elastic band. Make sure the elastic is not so tight that it can damage the screens.
-                                            </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="article d-flex flex-row justify-space-between">
-                                            <div>
-                                                <img style={{ width: '100px', height: '100px' }} src={four} alt="" />
-                                            </div>
-                                            <div>
-                                                <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                                    Place the sets in the shipping box on a layer of paper plugs and also fill the sides and top of the box with paper plugs to prevent the contents from moving.
-                                            </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ol>
+                                </div>
                             </div>
-                        </div>
-                        <div id="tab-body-2" className="tab-body">
-                            <div className="methodTwo">
-                                <h3>Packing without Bubble Bag</h3>
-                                <br />
-                                <ol>
-                                    <li>
-                                        <div className="article d-flex flex-row justify-space-between">
-
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img style={{ width: '100px', height: '100px' }} src={newTwo} alt="" />
-                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                            Place two sets of 2 pieces back to back (back-to-back)
-
-                                            </p>
-                                    </li>
-                                    <li>
-                                        <img style={{ width: '100px', height: '100px' }} src={newThree} alt="" />
-                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                            Make a stack of five pairs of LCD screens (so a total of 10 screens). Wrap each stack in bubble wrap.
-                                            Seal the bubble wrap with tape so that it does not open during shipping. Fill the box with packaging chips; these act as shock absorbers.
-                                            </p>
-                                    </li>
-                                    <li>
-                                        <img style={{ width: '100px', height: '100px' }} src={newFour} alt="" />
-                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                            Place the bubble wrap sets in the packaging chips, ensuring that the sets are surrounded by the packaging chips. If you want to send multiple layer sets, protect the layers eg with a padded envelope so that the sets cannot move.
-
-                                            </p>
-                                    </li>
-                                    <li>
-                                        <img style={{ width: '100px', height: '100px' }} src={newFive} alt="" />
-                                        <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
-                                            Apply packaging chips around the packed LCD screens and along the inner sides of the box. This prevents slipping and minimizes the risk of damage. Seal the box tightly with tape so that it does not open accidentally.
+                        </li>
+                        <li>
+                            <div className="article d-flex flex-row justify-space-between">
+                                <div>
+                                    <img style={{ width: '100px', height: '100px' }} src={two} alt="" />
+                                </div>
+                                <div>
+                                    <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                        Die Flex-Kabel weisen dabei in Richtung des offenen Endes der Luftpolstertasche
 
 
                                             </p>
-                                    </li>
-                                </ol>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                        <li>
+                            <div className="article d-flex flex-row justify-space-between">
+                                <div>
+                                    <img style={{ width: '100px', height: '100px' }} src={three} alt="" />
+                                </div>
+                                <div>
+                                    <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                        Nehmen Sie Sets von jeweils 10 Displays und binden Sie ein Gummiband darum. Achten Sie darauf, dass das Gummiband nicht zu straff sitzt, damit die Displays nicht beschädigt werden.
+                                            </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="article d-flex flex-row justify-space-between">
+                                <div>
+                                    <img style={{ width: '100px', height: '100px' }} src={four} alt="" />
+                                </div>
+                                <div>
+                                    <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                        Legen Sie die Sets danach auf eine Schicht aus zerknülltem Papier in den Transportkarton und füllen Sie den Karton an den Seiten und oben mit zerknülltem Papier, um ein Verrutschen des Inhalts zu verhindern.
+                                            </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <h1 style={{ fontWeight: "500" }} className="text-center">Standardregeln bezüglich dem Verpacken der LCDS</h1>
+                <br/>
+                <div className="methodTwo text-left">
+                    <ol>
+                        <li>
+                            <div className="article d-flex flex-row justify-space-between">
+                                <div>
+                                    <img style={{ width: '100px', height: '100px' }} src={one} alt="" />
+                                </div>
+                                <div>
+                                    <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                        Vor dem Zukleben des Kartons: Schließen Sie den Deckel und schütteln Sie den Karton fünf Sekunden lang. Wenn Sie fühlen, dass der Inhalt verrutscht, befüllen Sie den Karton mit zusätzlichem Verpackungsmaterial.
+
+
+
+                                            </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="article d-flex flex-row justify-space-between">
+                                <div>
+                                    <img style={{ width: '100px', height: '100px' }} src={two} alt="" />
+                                </div>
+                                <div>
+                                    <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                        Wählen Sie einen Karton, der zur Menge der Displays passt, die Sie versenden möchten. Überprüfen Sie bei wiederverwendeten Kartons, ob diese stabil genug und unbeschädigt sind.
+
+
+                                            </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="article d-flex flex-row justify-space-between">
+                                <div>
+                                    <img style={{ width: '100px', height: '100px' }} src={three} alt="" />
+                                </div>
+                                <div>
+                                    <p style={{ color: '#616160' }} className="pt-0 pl-4 fs-4">
+                                        Wir empfehlen nachdrücklich, nicht mehr als 350–400 LCDs bzw. max. 15,5 kg in einem Karton zu versenden. Vergewissern Sie sich, dass der Karton das zugelassene Maximalgewicht nicht übersteigt.
+                                    <br />
+                                    <br/>
+                                    Wenn auf allen Seiten des Kartons deutlich und in Großbuchstaben „ZERBRECHLICH – GLAS“ vermerkt ist, behandelt der Spediteur das Paket vorsichtiger.
+                                            </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </main >

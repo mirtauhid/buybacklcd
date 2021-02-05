@@ -8,8 +8,8 @@ const Hero = () => {
             <div className="row hero-container">
                 <div className="col-md-7 for-large">
                     <div className="hero-text">
-                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw', color: '#222326' }}>Verkaufen Sie uns Ihr kaputtes iPhone oder Samsung LCDs!</h1>
-                        <p><strong>Distriwise bietet Ihnen eine professionelle Lösung für die Abholung von kaputten iPhone und Samsung LCDs zu sehr günstigen Gebühren. Wir stehen auch für transparente Kontrolle und schnelle Bezahlung</strong></p>
+                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw', color: '#222326' }}>Transparenz, und das seit 12 Jahren</h1>
+                        <p><strong>Wir legen besonders viel Wert auf eine transparentes Bewertungsystem, dass sich seit Jahren bewährt hat. Es ist eigenes auf unseren Markt konzipiert und gewährt absolute Transparenz, Fairness und langfristige Geschäftsbeziehungen.</strong></p>
                     </div>
                 </div>
                 <div className="col-md-5">
@@ -17,8 +17,8 @@ const Hero = () => {
                 </div>
                 <div className="col-md-6 for-mobile">
                     <div className="hero-text">
-                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw' }}>Verkaufen Sie uns Ihr kaputtes iPhone oder Samsung LCDs!</h1>
-                        <p><strong>Distriwise bietet Ihnen eine professionelle Lösung für die Abholung von kaputten iPhone und Samsung LCDs zu sehr günstigen Gebühren. Wir stehen auch für transparente Kontrolle und schnelle Bezahlung</strong></p>
+                        <h1 style={{ fontWeight: 'bold', fontSize: '4vw' }}>Transparenz, und das seit 12 Jahren</h1>
+                        <p><strong>Wir legen besonders viel Wert auf eine transparentes Bewertungsystem, dass sich seit Jahren bewährt hat. Es ist eigenes auf unseren Markt konzipiert und gewährt absolute Transparenz, Fairness und langfristige Geschäftsbeziehungen.</strong></p>
                     </div>
                 </div>
 

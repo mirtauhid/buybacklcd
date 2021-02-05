@@ -17,7 +17,7 @@ const Acquainted = () => {
                         <h3 style={{ color: 'black' }}>Sie haben Fragen?</h3>
                         <h3 style={{ color: 'black' }}>Rufen Sie uns an unter  <br/><span style={{ color: 'black', fontWeight: '600' }} >085-0000000</span></h3>
                         <br />
-                        <button className="btn btn-primary" style={{ background: '#FF9211', border: '#FF9211', width: '150px', height: '50px' }} ><a style={{color: 'white', textDecoration: 'none'}} href="/contact">Kennenlernen</a></button>
+                        <button className="btn btn-primary" style={{ background: '#5FAC1C', border: '#5FAC1C', width: '150px', height: '50px' , color:"white !important"}} ><a style={{color: 'white', textDecoration: 'none'}} href="/contact">Kennenlernen</a></button>
                     </div>
                 </div>
             </div>

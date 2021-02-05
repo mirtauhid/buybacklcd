@@ -12,17 +12,18 @@
     max-width: 1140px;
     margin: 0 auto;
     color: #130e0e;
-    text-align: center;
+    text-align: left;
 
 }
 
 .packaging-wrapper>.packaging-heading>h1 {
-    font-size: 5vw;
+    font-size: 5rem;
     letter-spacing: 1vw !important;
     color: #FFFFFF;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    margin: 0 auto;
 }
 
 .packaging-heading {
@@ -74,6 +75,17 @@
     .tabs-wrapper label {
         width: 20%;
     }
+
+    .packaging-heading {
+        font-size: 2rem;
+        letter-spacing: 1vw !important;
+        color: #FFFFFF;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 auto;
+        padding: 120px 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -88,11 +100,11 @@
 }
 
 .tabs-wrapper label:hover {
-    background: #FF9211 !important;
+    background: #5FAC1C !important;
 }
 
 .tabs-wrapper input[type=radio]:checked+label {
-    background: #FF9211;
+    background: #5FAC1C;
     color: #333333;
 }
 
@@ -133,7 +145,7 @@
 
 .tab-body-wrapper {
     background: #F5F5F5;
-    border-top: #FF9211 5px solid;
+    border-top: #5FAC1C 5px solid;
     text-align: left;
 }
 
@@ -164,4 +176,8 @@
     position: relative;
     top: 0px;
     opacity: 1;
+}
+
+.methodOne {
+    border-bottom: 4px solid #2394BC;
 }

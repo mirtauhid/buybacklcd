@@ -3,7 +3,7 @@
     max-width: 100% !important;
     color: #000000 !important;
     font-weight: 500;
-    border-top: 3px solid #FF9211;
+    border-top: 3px solid #5FAC1C;
     left: 0;
     bottom: 0 !important;
     margin-top: 50px;
@@ -41,7 +41,7 @@
 }
 
 .site-footer a {
-    color: #F37B20 !important;
+    color: #5FAC1C !important;
 }
 
 .site-footer a:hover {
@@ -59,7 +59,7 @@
 }
 
 .footer-links a {
-    color: #F37B20 !important;
+    color: #5FAC1C !important;
 }
 
 .footer-links a:active,
@@ -182,7 +182,7 @@
 }
 
 .copyright-text>a {
-    color: #F37B20 !important;
+    color: #5FAC1C !important;
 }
 
 .copyright-text>a:hover {

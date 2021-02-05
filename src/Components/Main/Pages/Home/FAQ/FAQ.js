@@ -23,7 +23,7 @@ const FAQ = () => {
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            - Nein, nur Firmen können kaputte LCDs versenden.
+                            - Ja, jede Person die über ein defektes LCD verfügt und dieses unseren Geschäftsbedingung entsprich, kann das LCD zu uns einsenden.
                         </div>
                         </div>
                     </div>
@@ -37,9 +37,10 @@ const FAQ = () => {
                         </h2>
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            - Sie können ab 15 LCD-Bildschirmen kostenlos versenden.
-                            <br/>
-Ins Ausland: Ab 50 LCD-Bildschirmen können Sie kostenlos versenden.
+                            - Ab 25 Screens können sie diese schweizweit kostenlos bei uns 
+                            <br/> einsenden. Wenden Sie sich hierzu an unseren Kundendienst
+
+
                         </div>
                         </div>
                     </div>
@@ -47,7 +48,9 @@ Ins Ausland: Ab 50 LCD-Bildschirmen können Sie kostenlos versenden.
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingThree">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Wie kann ich die kaputten LCDs am besten verpacken?
+                            Wann werde ich bezahlt?
+
+
 
 
 </button>
@@ -70,7 +73,9 @@ Ins Ausland: Ab 50 LCD-Bildschirmen können Sie kostenlos versenden.
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            - Um die kaputten LCDs richtig zu verpacken, können Sie unsere Verpackungsanweisung befolgen.Verpackungsanweisung.
+                            - Um die kaputten LCDs richtig zu verpacken, können Sie unsere Verpackungstipps befolgen.
+
+
                             </div>
                         </div>
                     </div>

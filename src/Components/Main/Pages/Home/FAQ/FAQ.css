@@ -68,7 +68,7 @@
 
 .accordion-button:not(.collapsed) {
     color: #000000;
-    background-color: #FF9211;
+    background-color: #5FAC1C;
 }
 
 .accordion-button:focus {

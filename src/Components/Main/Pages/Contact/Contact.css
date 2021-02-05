@@ -43,14 +43,14 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    color: #ff9211;
+#contact a {
+    color: #5FAC1C;
     text-decoration: none
 }
 
 a:hover,
 a:focus {
-    color: #ff9211;
+    color: #5FAC1C;
     text-decoration: underline
 }
 
@@ -116,7 +116,7 @@ h6,
 
 .bg-color2 {
     color: #fff;
-    background: #ff9211;
+    background: #5FAC1C;
 }
 
 .bg-color3 {
@@ -125,11 +125,11 @@ h6,
 }
 
 .border-bottom-color2 {
-    border-bottom: 7px solid #ff9211;
+    border-bottom: 7px solid #5FAC1C;
 }
 
 .border-top-color2 {
-    border-top: 7px solid #ff9211;
+    border-top: 7px solid #5FAC1C;
 }
 
 .color1 .service-icon,
@@ -143,11 +143,11 @@ h6,
 
 .color2 .service-icon,
 .color2.service-item ul li:nth-child(2):before {
-    background: #ff9211;
+    background: #5FAC1C;
 }
 
 .color2 .service-icon:after {
-    border: 3px solid #ff9211;
+    border: 3px solid #5FAC1C;
 }
 
 .color3 .service-icon,
@@ -169,7 +169,7 @@ h6,
     color: #fff;
     font-size: 21px;
     font-weight: 300;
-    background: #ff9211;
+    background: #5FAC1C;
     outline: none !important;
     border-radius: 0;
     transition: opacity .2s ease-out;
@@ -281,7 +281,7 @@ h6,
 
 #contact-form .form-control:focus {
     background: #fff;
-    border-bottom: 3px solid #ff9211;
+    border-bottom: 3px solid #5FAC1C;
     outline: none;
     box-shadow: none;
     -webkit-transition: border-color .3s ease-in;
@@ -318,7 +318,7 @@ h6,
     padding-bottom: 40px;
     font-size: 25px;
     text-decoration: none;
-    color: #ff9211;
+    color: #5FAC1C;
     font-weight: 500;
 }
 
