@@ -3,3 +3,7 @@
     padding: 100px 80px;
     margin: 30px auto;
 }
+
+.ken-btn:hover {
+    background-color: #3d770b !important;
+}

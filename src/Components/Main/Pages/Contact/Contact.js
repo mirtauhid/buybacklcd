@@ -1,8 +1,19 @@
+import emailjs from 'emailjs-com';
 import React from 'react';
 import './Contact.css';
 
-const Contact = () => {
 
+const Contact = () => {
+    function sendEmail(e) {
+        e.preventDefault();
+        console.log(e.target);
+        emailjs.sendForm('service_w9aqhxm', 'template_m9gex68', e.target, "user_J3Eo9lyqa5OVUGYdoUzHY")
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
     return (
         <main id="contact">
             <div className="contact-wrapper row">
@@ -21,13 +32,13 @@ const Contact = () => {
                                     <p className="lead">enn Sie eine Frage zu unserem Service haben, können Sie uns gerne kontaktieren. Wir schätzen Ihr Interesse. Sie können uns auch eine Anfrage für ein Treffen schicken, wenn Sie mindestens 500 Handy-LCDs haben und Sie mit unseren Bedingungen einverstanden sind. Wir werden uns innerhalb von 24 Stunden (Werktag) mit Ihnen in Verbindung setzen</p>
                                 </div>
                                 {/*=== Contact Form ===*/}
-                                <form id="contact-form" className="col-sm-6 offset-md-1 scrollimation fade-left d3" o action="mailto:preise@displayankauf.ch" method="GET">
+                                <form id="contact-form" className="col-sm-6 offset-md-1 scrollimation fade-left d3" onSubmit={sendEmail}>
                                     <div className="form-group">
                                         <label className="control-label" htmlFor="contact-name">Ihr Name
 
 </label>
                                         <div className="controls">
-                                            <input id="contact-name" name="contactName" placeholder="Ihr Name" className="form-control requiredField" data-new-placeholder="Ihr Name" type="text" data-error-empty="Please enter your name" />
+                                            <input id="contact-name" name="name" placeholder="Ihr Name" className="form-control requiredField" data-new-placeholder="Ihr Name" type="text" data-error-empty="Please enter your name" />
                                             <i className="fa fa-user" />
                                         </div>
                                     </div>{/* End name input */}
@@ -36,7 +47,7 @@ const Contact = () => {
 
 </label>
                                         <div className=" controls">
-                                            <input id="contact-mail" name="email" placeholder="Ihre E-Mail" className="form-control requiredField" data-new-placeholder="Ihre E-Mail" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address" />
+                                            <input id="contact-mail" name="email" placeholder="Ihre E-Mail" className="form-control requiredField" data-new-placeholder="Email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address" />
                                             <i className="fa fa-envelope" />
                                         </div>
                                     </div>{/* End email input */}
@@ -45,7 +56,7 @@ const Contact = () => {
 
 </label>
                                         <div className="controls">
-                                            <textarea id="contact-message" name="comments" placeholder="Ihre Nachricht" className="form-control requiredField" data-new-placeholder="Your message" rows={6} data-error-empty="Please enter your message" defaultValue={""} />
+                                            <textarea id="contact-message" name="message" placeholder="Ihre Nachricht" className="form-control requiredField" data-new-placeholder="Your message" rows={6} data-error-empty="Please enter your message" defaultValue={""} />
                                             <i className="fa fa-comment" />
                                         </div>
                                     </div>{/* End textarea */}
@@ -58,7 +69,7 @@ const Contact = () => {
                     {/* ==============================================
 		FOOTER
 		=============================================== */}
-                    
+
                 </>
             </div>
         </main>
