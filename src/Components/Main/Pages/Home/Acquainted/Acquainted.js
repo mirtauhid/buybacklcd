@@ -13,11 +13,11 @@ const Acquainted = () => {
                     <p style={{ fontSize: '1.2rem' }} >Wie wir das machen? Das erklären wir Ihnen gerne in einem persönlichen Gespräch. Kontaktieren Sie uns über das untenstehende Formular oder rufen Sie unseren Spezialisten an, um sofort einen Termin zu vereinbaren.</p>
                 </div>
                 <div className="col-md-6">
-                    <div className="text-wrapper" style={{ margin: '0 auto', background: '#F0F1F1', padding: '50px 50px 180px 50px', borderRadius: '8px' }}>
-                        <h3 style={{ color: 'black' }}>Sie haben Fragen?</h3>
-                        <h3 style={{ color: 'black' }}>Rufen Sie uns an unter  <br/><span style={{ color: 'black', fontWeight: '600' }} >085-0000000</span></h3>
+                    <div className="text-wrapper" style={{ margin: '0 auto', background: '#F0F1F1', padding: '50px 50px 27px 50px', borderRadius: '8px' }}>
+                        <h3 style={{ color: 'black',fontWeight: "500" }}>Sie haben Fragen?</h3>
+                        <p style={{ color: 'black' }}>Sie haben Fragen zu unserem Bewertungssystem? Gerne erläutern unsere Experten Ihnen unsere Vorgehensweise in einem persönlichen Gespräch. Benutzen Sie unser Kontakt-Formular oder rufen Sie uns an. Unsere Experten sind stets bemüht Ihnen weiterzuhelfen.<br/><span style={{ color: 'black', fontWeight: '600',fontSize:"20px" }} >0779560487</span></p>
                         <br />
-                        <button className="btn btn-primary ken-btn" style={{ background: '#5FAC1C', border: '#5FAC1C', width: '150px', height: '50px' , color:"white !important"}} ><a style={{color: 'white', textDecoration: 'none'}} href="/contact">Kennenlernen</a></button>
+                        <button className="btn btn-primary ken-btn" style={{ background: '#5FAC1C', border: '#5FAC1C', width: '150px', height: '50px' , color:"white !important"}} ><a style={{color: 'white', textDecoration: 'none'}} href="/contact">Anrufen</a></button>
                     </div>
                 </div>
             </div>

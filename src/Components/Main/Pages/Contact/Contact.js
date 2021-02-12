@@ -7,11 +7,11 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
         console.log(e.target);
-        emailjs.sendForm('service_w9aqhxm', 'template_m9gex68', e.target, "user_J3Eo9lyqa5OVUGYdoUzHY")
+        emailjs.sendForm('service_igrj1xe', 'template_fh9lozg', e.target, "user_ge6H8ueGbAN5AhIkjedVC")
             .then((result) => {
-                console.log(result.text);
+                alert(result.text + ":" + " Erfolgreich gesendet");
             }, (error) => {
-                console.log(error.text);
+                alert(error.text + ":" + "Nicht erfolgreich. Versuch es noch einmal");
             });
     }
     return (

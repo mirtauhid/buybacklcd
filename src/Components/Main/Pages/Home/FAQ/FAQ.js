@@ -23,7 +23,7 @@ const FAQ = () => {
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            - Ja, jede Person die über ein defektes LCD verfügt und dieses unseren Geschäftsbedingung entsprich, kann das LCD zu uns einsenden.
+                            - Ja, jede Person die über ein defektes LCD verfügt und dieses unseren Geschäftsbedingung entspricht, kann das LCD zu uns einsendenein.
                         </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const FAQ = () => {
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            - Um die kaputten LCDs richtig zu verpacken, können Sie unsere Verpackungstipps befolgen.
+                            - Um die kaputten LCDs richtig zu verpacken, können Sie unsere <span><a href="/packaging-tips">Verpackungstipps</a></span> befolgen.
 
 
                             </div>
@@ -133,9 +133,7 @@ const FAQ = () => {
                         </h2>
                         <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                - Ein Beispiel für einen Prüfbericht finden Sie
-
-<a href="/example-report"> hier </a>
+                                - Ein Beispiel für einen Prüfbericht finden Sie hier
                             </div>
                         </div>
                     </div>

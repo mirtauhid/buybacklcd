@@ -23,7 +23,7 @@ const Footer = () => {
                                 <h6>SCHNELL-LINKS</h6>
                                 <ul className="footer-links">
                                     <li>
-                                        <a href="/policy">Geschäftsbedining</a>
+                                        <a href="/policy">Datenschutz</a>
                                     </li>
                                     <li>
                                         <a href="/requirements">Geschäftsbedingungen</a>

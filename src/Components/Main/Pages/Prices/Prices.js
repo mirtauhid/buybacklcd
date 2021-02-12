@@ -12,7 +12,7 @@ const Prices = () => {
                     <div className="col-md-12 text-center">
                         <br/>
                         <br/>
-                        <h2>Gerne können wir Ihnen unsere Preisliste zukommen lassen. Senden Sie uns hierfür eine <span style={{fontWeight: "500"}} >E-Mail an preise@displayankauf.ch</span>
+                        <h2 style={{color: "black"}}>Gerne können wir Ihnen unsere Preisliste zukommen lassen. Senden Sie uns hierfür eine <span style={{fontWeight: "500",color:"#5FAC1C"}} >E-Mail an preise@displayankauf.ch</span>
 
 </h2>
 
